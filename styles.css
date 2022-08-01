@@ -9,14 +9,6 @@ body {
 
 
 
-@keyframes slidein {
-   From {
-      Opacity : 1 ;
-      }
-      To {
-      Opacity : 0 ;
-      }
-      }
 
 
 h1 {
@@ -25,13 +17,22 @@ h1 {
 p { 
 
 
-   animation-duration: 3s;
+   animation-duration: 1s;
    animation-name: slidein;
    animation-iteration-count: infinite;
    animation-direction: alternate;
    
    color:rgb(9, 160, 59)
 }
+
+@keyframes slidein {
+   From {
+      Opacity : 1 ;
+      }
+      To {
+      Opacity : 0 ;
+      }
+      }
 
 
 h2 {
@@ -43,6 +44,6 @@ h2 {
  }
 
 
-
+a {color:rgb(21, 192, 121)}
 
 
